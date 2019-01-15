@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Nov 30 11:54:53 2018
-
-@author: 清水 匠
 """
 
 #akamaiのトラフィックマップを頑張ってスクレイピングする！！
