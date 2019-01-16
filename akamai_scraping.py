@@ -23,7 +23,7 @@ options.add_argument('--headless')
 traffic_timestamp = ""
 attack_timestamp = ""
 #マップを成型するCSSにリンクさせるためのタグ
-css_tag = "<head><meta charset=\"Shift_JIS\"><link rel=\"stylesheet\" type=\"text/css\" href=\"css_test.css\"></head>"
+css_tag = "<head><meta charset=\"Shift_JIS\"><link rel=\"stylesheet\" type=\"text/css\" href=\"map.css\"></head>"
 #解析する時間を指定する変数
 scraping_time = 0
 #解析した回数を記録する変数

@@ -1,0 +1,235 @@
+﻿@charset "UTF-8";
+
+.map_col::-webkit-scrollbar {
+  display: none;
+}
+
+.map_col {
+    position: absolute;
+    width: 750px;
+    margin: 0;
+	height: 560px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.map_col, .options_col .stat {
+    float: right;
+}
+
+.map-container, .map-container .map {
+    width: 100%;
+    height: 100%;
+}
+.map-container {
+    position: absolute;
+	
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 1024px)
+.dv2 .graph-area, .map-container {
+    position: static;
+    height: auto;
+}
+
+.jvectormap-container {
+    width: 100%;
+    height: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg {
+    display: block;
+    height: auto;
+}
+
+.map-container .timestamp {
+    top: 1em;
+    right: 1em;
+}
+
+
+
+.map-container .info {
+    width: 50%;
+    bottom: 0em;
+    left: 1em;
+    display: none;
+}
+
+
+
+
+.global-header.header--v2 .utility-nav__level-two a, .heading--base, .map-container .info_title, .twitter-feed, .utility-nav__level-two a, h5 {
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.33333rem;
+    margin-bottom: .43332rem;
+}
+
+#traffic_legend {
+    background-image: linear-gradient(90deg,#b5e918 0,#dc2067);
+}
+
+#attacks_legend {
+    background-image: linear-gradient(90deg,#defaf9 0,#e01c00);
+}
+.map-container .legend {
+    width: 40%;
+    height: 10px;
+    right: 1em;
+    bottom: 2em;
+    display: none;
+}
+
+.map-container .is-active {
+    display: block;
+}
+
+
+.map-container .legend_stats {
+    position: relative;
+    width: 100%;
+}
+
+.map-container .legend_min {
+    left: 0;
+}
+
+.map-container .legend_max {
+    right: 0;
+}
+
+
+.map-container .legend_max, .map-container .legend_min {
+    bottom: -40px;
+}
+
+.map-container .total_stat {
+    left: 0;
+    top: -35px;
+}
+
+.map-container .stat_value {
+    font-size: 2em;
+}
+
+.map-container .legend_max, .map-container .legend_min, .map-container .total_stat {
+    position: absolute;
+    color: #fff;
+}
+
+
+
+.map-container .info, .map-container .legend, .map-container .timestamp {
+    text-shadow: 1px 1px 2px rgba(58,68,74,.3);
+    position: absolute;
+    color: #fff;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+section.RealTimeWebMonitor {
+    background-color: #3a444a;
+    color: #fff;
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+html:lang(ja).wf-active body {
+    font-family: Ubuntu,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ\ Ｐゴシック,MS PGothic,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+html:lang(ja) body {
+    font-family: ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ\ Ｐゴシック,MS PGothic,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.wf-active body {
+    font-family: Ubuntu,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+body {
+    hyphens: none;
+    line-height: 2rem;
+    font-size: 1.33333rem;
+    margin-bottom: -.56668rem;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeSpeed;
+    background-color: #fff;
+    color: #3a444a;
+    padding: 0;
+    position: relative;
+    font-weight: 300;
+    font-family: Helvetica,Arial,Lucida Grande,sans-serif;
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+html {
+    font-size: 75%;
+    height: 100%;
+    text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+* {
+    -webkit-tap-highlight-color: rgba(23,26,27,0);
+}
+:after, :before {
+    transition: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:after, :before {
+    transition: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+::selection {
+    background-color: rgba(255,179,102,.9);
+}
+
+
