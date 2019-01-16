@@ -18,5 +18,6 @@ Folder
 
 実際のウェブサイトのURL：https://www.akamai.com/jp/ja/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp
 
+以下動作イメージ図（修正等により実際の画面とは異なる場合があります。）
 ![akamai_](https://user-images.githubusercontent.com/46716880/51262711-40b89a80-19f6-11e9-9fe6-4a5d77f726b7.png)
 
